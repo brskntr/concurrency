@@ -31,7 +31,8 @@ public int value = 1;
 
 we have to put syncronized around increment logic because Thread 1 and Thread 2 read the value as 1 before increased.
 <!-- Code Blocks -->
-```syncronized(value){
+```
+syncronized(value){
   value++;
 }
 ```
