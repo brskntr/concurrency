@@ -30,9 +30,11 @@ Thread 1 and Thread 2 incerement the value;
 public int value = 1;
 
 we have to put syncronized around increment logic because Thread 1 and Thread 2 read the value as 1 before increased.
-syncronized(value){
+<!-- Code Blocks -->
+```syncronized(value){
   value++;
 }
+```
 
 Other solution is 
 
